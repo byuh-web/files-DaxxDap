@@ -1,0 +1,28 @@
+
+
+header {
+
+height: 500;
+font-size: larger;
+background-color:palevioletred;
+
+}
+
+main {
+    background-color:pink;
+    height: 50;
+    font-size: larger;
+}
+
+
+body {
+    background-color:navajowhite;
+    background-image: url(nya.jpg);   
+    background-repeat:repeat;
+
+
+    footter {
+        background-color: palevioletred;
+        height: 100px;
+    }
+}
