@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+    background-color: #93E8EB;
+    color: #004042;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    font-family: 'Kablammo', sans-serif;
+    color: #004042;
+    padding: 20px 0px;
+}
+
+nav {
+    display: block;
+    margin: 30px 30px;
+    text-decoration: none;
+    background-color: rgba(147, 232, 235, 0.731);
+    padding: 20px 20px;
+    border: thin solid #004042;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: #004042;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #00BBC2;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a:visited {
+    color: #006C70;
+}
+
+main {
+    background-color: white;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    border: thin solid #004042;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #004042;
+}
+
+h3 {
+    color: #006C70;
+}
+
+.highlight {
+    color: #00BBC2;
+    font-weight: bold;
+}
+
+.soft-text {
+    color: #006C70;
+}
+
+main ul {
+    background-color: #93E8EB;
+    padding: 20px 30px;
+    border-left: 5px solid #00BBC2;
+}
+
+footer {
+    text-align: center;
+    background-color: #004042;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: #93E8EB;
+}
+
+footer a:hover {
+    color: white;
+}
