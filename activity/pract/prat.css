@@ -1,0 +1,23 @@
+.style-div{
+    background-color: powderblue;
+	margin: 0 auto; /*0 top and bottom, auto left and right*/
+	width: 50%;
+}
+
+
+a:visited {
+	color: cornflowerblue;
+}
+
+a:hover {
+	background-color: salmon;
+}
+
+a:focus {
+	background-color: red;
+	outline: none;
+}
+
+a:active {
+	background-color: cornflowerblue;
+}
