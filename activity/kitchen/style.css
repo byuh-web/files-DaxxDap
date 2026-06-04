@@ -8,17 +8,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    row-gap: px;
     
 }
 
 .menu div {
    
-    border:  double 5px #371414;
+    border:  dotted 5px #605e5e;
     border-radius: 5px;
     padding: 10px;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 div {
@@ -26,13 +26,16 @@ div {
     border:  double 5px #371414;
     border-radius: 5px;
     padding: 10px;
+    font-weight: bold;
 }
 
 
 .special {
-    grid-column: span 3 ;
-    background-color: #f14110;
-    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    grid-column: span 3;
+    background-color: #fdf19d;
+    color: rgb(233, 71, 71);
 }
 
 h2 {
@@ -42,5 +45,24 @@ h2 {
     padding: 10px;
     margin: 0;
     text-align: left;
-    color: #f8f8f8;
+    color: #200d0d;
+}
+
+.top-picks {
+   grid-column: span 3;
+   text-align: left;
+    background-color: #f7a74c;
+    color: rgb(22, 7, 7);
+    border:  double 5px #371414;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.others {
+    text-align: left;
+    background-color: #efe8d2;
+    color: rgb(22, 7, 7);
+    border:  double 5px #371414;
+    border-radius: 5px;
+    padding: 10px;
 }
