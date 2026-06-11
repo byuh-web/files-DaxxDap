@@ -1,0 +1,84 @@
+
+@media screen and (min-width: 900px) {
+   .menu {
+    display : flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #6d0e0e;
+
+    }
+
+}
+
+body {
+    background-color: #f5ac0e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    background-color: #caa458;
+    border-radius: 5px;
+    border:  double 5px #371414;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    
+}
+
+.menu div {
+   
+    border:  dotted 5px #605e5e;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: #f4e7bb;
+    border:  double 5px #371414;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.special {
+    font-weight: bold;
+    font-size: 1.3em;
+    grid-column: span 3;
+    background-color: #fdf19d;
+    color: rgb(233, 71, 71);
+}
+
+h2 {
+    background-color: #dc8b59;
+    border:  double 5px #371414;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    color: #200d0d;
+}
+
+.top-picks {
+   grid-column: span 3;
+   text-align: left;
+    background-color: #f7a74c;
+    color: rgb(22, 7, 7);
+    border:  double 5px #371414;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.others {
+    text-align: left;
+    background-color: #efe8d2;
+    color: rgb(22, 7, 7);
+    border:  double 5px #371414;
+    border-radius: 5px;
+    padding: 10px;
+}
