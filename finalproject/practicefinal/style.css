@@ -1,22 +1,82 @@
+* {
+box-sizing: border-box;
+
+}
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    margin: 10px;
+    margin: 0;
     padding: 1px;
-    background-color: azure;
+    background-color: rgb(225, 217, 188);
+    color: rgb(23, 90, 90);
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: rgb(129, 175, 159);
+    color:white;
+    padding: 40px 20px;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: rgb(51, 96, 96);
+    display: flex;
 
 }
 
 .navbar {
     width: 100%;
-    background-color: antiquewhite;
-    display: flex;
+    background-color: rgb(117, 106, 90);
 }
 
-.nav-link {
-    link font-style:none;
-    display:
+nav ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+nav a {
+    color: rgb(135, 192, 228);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
 
 
 
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+
+
+footer {
+    background-color: rgb(11, 72, 68);
+    text-align: center;
+    padding: 20px;
+
+}
+
+img {
+    max-width: 100%;
 }
