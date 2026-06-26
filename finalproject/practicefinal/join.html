@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BYUH Cat's Club</title>
+    <title>Cats Club | Join</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="title"></header>
+    <header class="title">
     <h1>Cats Club</h1>
+    </header>
 
     <nav class="navbar">
     <ul class= "navlink">
@@ -19,30 +20,57 @@
     <li><a href="events.html">Events </a></li>
     <li><a href="care.html">Care </a></li>
     <li><a href="gallery.html">Gallery </a></li>
-    <li><a href="join.html">Join Now </a></li>
+    <li><a href="join.html" class="active">Join Now </a></li>
     </ul>
     </nav>
 
-    <hr>
+
 
     <div class="wrapper">
     <main> 
 
     
     <article class="card">
-    <h2>Test </h2>
 
-    <p> lorem    
+    <h2>Join the Cats Club</h2>
+    
+    <p> Wanna be part of the club? Fill out the form below to share your interest.
+    Members can join activities, learn more about cats, and connect with other cat lovers.
     </p>
+
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="hobby">Hobby</label>
+        <input type="text" id="hobby" name="hobby">
+
+        <label for="cat-type">Favorite type of cat</label>
+        <input type="text" id="cat-type" name="cat-type">
+
+        <label for="interest">Why do you want to join?</label>
+        <textarea id="interest" name="interest"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
 
     </article>
     </main>
     </div> 
 
-</body>
+
 
 <hr>
 
-<footer>Copy right 2026</footer>
+<footer>
+    <p>&copy; 2026 Cats Club</p>
+</footer>
+
+
 </body>
 </html>
